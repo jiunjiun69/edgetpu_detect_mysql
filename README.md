@@ -4,6 +4,7 @@
 pip install mysql-connector-python
 ```
 
+# 以下先忽略
 
 ~~
 ## edgetpu必須先安裝
