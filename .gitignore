@@ -1,0 +1,14 @@
+# Local secrets
+.env
+*.env
+serviceAccount.json
+serviceAccount*.json
+*-service-account.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Python
+__pycache__/
+*.py[cod]
