@@ -145,7 +145,7 @@ def convert(obj, labels):
     return Object(id=obj.label_id,
                   label=labels[obj.label_id] if labels else None,
                   score=obj.score,
-                  bbox=BBox(x=x0, y=y0, w=x1 - x0, y=y0, w=x1 - x0, h=y1 - y0))
+                  bbox=BBox(x=x0, y=y0, w=x1 - x0, h=y1 - y0))
 
 def print_results(inference_rate, objs):
     print('\nInference (rate=%.2f fps):' % inference_rate)
